@@ -30,11 +30,9 @@ export default function App() {
         multiselect={true}
         variant="checkbox"
         values={currentValueForToggleGroup}
-        on_change={({ values, event }) => {
+        on_change={({ values }) => {
           console.log(values);
           setCurrentValueForToggleGroup(values);
-          console.log(currentValueForToggleGroup);
-          setCurrentValueForToggleGroup(currentValueForToggleGroup);
         }}
       >
         {sections.map(section => (
