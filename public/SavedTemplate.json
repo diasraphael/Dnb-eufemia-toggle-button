@@ -1,0 +1,80 @@
+{
+  "data": {
+    "sections": [
+      {
+        "id": "OVERVIEW",
+        "type": "PRE_DEFINED",
+        "childSections": [
+          {
+            "id": "RISK_FIGURES_COMPARISON",
+            "type": "PRE_DEFINED",
+            "includeAllFields": true,
+            "fields": null
+          },
+          {
+            "id": "COMMITMENT_GRAPH",
+            "type": "PRE_DEFINED",
+            "includeAllFields": false,
+            "fields": ["GRANTED", "DRAWN", "RAC"]
+          }
+        ]
+      },
+      {
+        "id": "FACILITIES",
+        "type": "PRE_DEFINED",
+        "childSections": [
+          {
+            "id": "COMMITMENT",
+            "type": "PRE_DEFINED",
+            "includeAllFields": false,
+            "fields": ["GRANTED", "GRANTED_ORIGINAL", "DRAWN", "MARGIN"]
+          },
+          {
+            "id": "RISK",
+            "type": "PRE_DEFINED",
+            "includeAllFields": false,
+            "fields": ["RAC", "RWA", "PD"]
+          },
+          {
+            "id": "PRICING",
+            "type": "PRE_DEFINED",
+            "includeAllFields": true,
+            "fields": null
+          }
+        ]
+      },
+      {
+        "id": "12342",
+        "type": "CUSTOM",
+        "header": "Financial Report",
+        "childSections": [
+          {
+            "id": "12343",
+            "type": "ATTACHMENT",
+            "maxCount": 2
+          }
+        ]
+      },
+      {
+        "id": "12344",
+        "type": "CUSTOM",
+        "header": "Case Description",
+        "childSections": [
+          {
+            "id": "12345",
+            "type": "ATTACHMENT",
+            "header": "Attachment",
+            "maxCount": 1
+          },
+          {
+            "id": "12346",
+            "type": "TEXT_EDITOR",
+            "header": "Description",
+            "maxSize": 500
+          }
+        ]
+      }
+    ]
+  },
+  "validations": null
+}
